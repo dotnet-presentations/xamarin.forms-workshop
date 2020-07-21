@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="MonkeyFinder.View.DetailsPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:viewmodel="clr-namespace:MonkeyFinder.ViewModel"
+    x:DataType="viewmodel:MonkeyDetailsViewModel"
+    mc:Ignorable="d">
+    <!--  Helps with intellisense, creates a mock ViewModel to use  -->
+    <d:ContentPage.BindingContext>
+        <viewmodel:MonkeyDetailsViewModel />
+    </d:ContentPage.BindingContext>
+    <ScrollView>
+        <StackLayout>
+            <Grid ColumnDefinitions="*,Auto,*" RowDefinitions="100, Auto">
+                <!--  Monkey image and background  -->
+            </Grid>
+            <!--  Name and details  -->
+        </StackLayout>
+    </ScrollView>
+</ContentPage>
