@@ -11,9 +11,9 @@
     <AssemblyName>MonkeyFinder.UWP</AssemblyName>
     <DefaultLanguage>en-US</DefaultLanguage>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
-    <TargetPlatformVersion Condition=" '$(TargetPlatformVersion)' == '' ">10.0.18362.0</TargetPlatformVersion>
-    <TargetPlatformMinVersion>10.0.17134.0</TargetPlatformMinVersion>
     <MinimumVisualStudioVersion>14</MinimumVisualStudioVersion>
+    <TargetPlatformVersion Condition=" '$(TargetPlatformVersion)' == '' ">10.0.19041.0</TargetPlatformVersion>
+    <TargetPlatformMinVersion>10.0.17134.0</TargetPlatformMinVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{A5A43C5B-DE2A-4C0C-9213-0A381AF9435A};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <WindowsXamlEnableOverview>true</WindowsXamlEnableOverview>
@@ -150,18 +150,9 @@
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>
-  <ItemGroup>
-    <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform">
-      <Version>6.2.10</Version>
-    </PackageReference>
-    <PackageReference Include="Microsoft.AppCenter" Version="4.1.0" />
-    <PackageReference Include="Microsoft.AppCenter.Analytics" Version="4.1.0" />
-    <PackageReference Include="Microsoft.AppCenter.Crashes" Version="4.1.0" />
-    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
-    <PackageReference Include="Xamarin.Essentials" Version="1.6.0" />
-    <PackageReference Include="Xamarin.Forms" Version="5.0.0.1874" />
-    <PackageReference Include="Xamarin.Forms.Visual.Material" Version="5.0.0.1874" />
-  </ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform" Version="6.2.13"/>
+	</ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\MonkeyFinder\MonkeyFinder.csproj">
       <Project>{a4767409-fd5a-408c-a0de-9caa76254719}</Project>

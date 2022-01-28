@@ -27,6 +27,16 @@
                 <Setter Property="BackgroundColor" Value="White"/>
                 <Setter Property="CornerRadius" Value="10"/>
             </Style>
+
+            <Style TargetType="Page" ApplyToDerivedTypes="True">
+                <Setter Property="BackgroundColor" Value="#FAF9F8" />
+            </Style>
+            <Style TargetType="Label" ApplyToDerivedTypes="True">
+                <Setter Property="TextColor" Value="#1F1F1F" />
+            </Style>
+            <Style TargetType="RefreshView" ApplyToDerivedTypes="True">
+                <Setter Property="RefreshColor" Value="{StaticResource Primary}" />
+            </Style>
         </ResourceDictionary>     
     </Application.Resources>
 </Application>
