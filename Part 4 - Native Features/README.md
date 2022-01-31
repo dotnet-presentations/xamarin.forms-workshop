@@ -167,8 +167,6 @@ Under the monkey's name, let's add a button that calls the `OpenMapCommand`.
         Margin="8"
         Style="{StaticResource ButtonOutline}"/>
 
-<Line Aspect="Fill" Stroke="#DDDDDD" X2="100" Y1="1" Y2="1" />
-
 <Label Text="{Binding Monkey.Details}" Margin="10"/>
 ```
 

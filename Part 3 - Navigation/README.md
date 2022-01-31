@@ -156,12 +156,5 @@ Finally, under the `Grid`, but inside of the `StackLayout` we will add details a
     HorizontalOptions="Center"
     Text="{Binding Monkey.Name}" />
 
-<Line
-    Aspect="Fill"
-    Stroke="#DDDDDD"
-    X2="100"
-    Y1="1"
-    Y2="1" />
-
 <Label Margin="10" Text="{Binding Monkey.Details}" />
 ```
