@@ -70,12 +70,7 @@
                 Text="Show on Map"
                 WidthRequest="200" />
 
-            <Line
-                Aspect="Fill"
-                Stroke="#DDDDDD"
-                X2="100"
-                Y1="1"
-                Y2="1" />
+            
 
             <Label Margin="10" Text="{Binding Monkey.Details}" />
         </StackLayout>
